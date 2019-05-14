@@ -17,4 +17,9 @@ public class Book{
     public int getPages(){
         return Pages;
     }
+    public void setPublisher(String Publisher){
+        this.Publisher = Publisher;
+    }
+    public int getPublisher(){
+        return Publisher;
 }
