@@ -5,6 +5,16 @@ public class Book{
     private boolean Hardcover;
     private String Publisher;
 
-    public static void main(String[] args){
+    public void setAuthor(String Author){
+        this.Author = Author;
+    }
+    public String getAuthor(){
+        return Author;
+    }
+    public void setPages(int Pages){
+        this.Pages = Pages;
+    }
+    public int getPages(){
+        return Pages;
     }
 }
